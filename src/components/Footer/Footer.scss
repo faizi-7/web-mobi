@@ -1,0 +1,46 @@
+.footer {
+
+    .footer-content {
+        padding: 40px 80px;
+        @media screen and (max-width: 480px) {
+            padding: 40px 20px;
+        }
+        background-color: #a2d8f2;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        .footer-heading {
+            font-size: 30px;
+            font-weight: bold;
+            color: #1f2b31;
+        }
+        .footer-body {
+            color: rgb(31, 43, 49, 0.7);
+            font-size: 20px;
+            @media screen and (max-width: 480px) {
+                font-size: 16px;
+            }
+        }
+        button {
+            padding: 12px 24px;
+            background-color: #3457bf;
+            color: white;
+            font-size: 18px;
+            border-radius: 6px;
+            cursor: pointer;
+            border: none;
+            &:hover {
+                background-color: #2d4ba4;
+                transition: all .3s ease;
+            }
+        }
+    }
+    .footer-end {
+        text-align: center;
+        padding: 20px;
+        background-color: #f6fbfe;
+        color: rgb(31, 43, 49, .7);
+    }
+}
